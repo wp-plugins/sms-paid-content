@@ -6,15 +6,9 @@ Requires at least: 2.0.2
 Tested up to: 2.3.2
 Stable tag: 0.1
 
-This Plugin allows you to hide any content on your blog, that will be visible only after user sends sms message.
-
 == Description ==
 
-
-USING: [sms] Hidden text [/sms]
-
 For using this module you have to be registered at sms billing site:
-
        English:	http://smscoin.net/account/register/
        Russian: http://smscoin.com/account/register/
 
@@ -24,6 +18,8 @@ The sms:key is, from the implementational point of view, just a way of restricti
  The access for the certain password is denied when the time is up OR when the visit count limit is hit, whichever comes first.
  Be careful while adjusting the options thought: note that when you change your sms:key options,
  only those users that signed up after the change are affected.
+
+USING: [sms] Hidden text [/sms]
 
 == Installation ==
 
@@ -38,14 +34,13 @@ The sms:key is, from the implementational point of view, just a way of restricti
 
 USING: [sms] Hidden text [/sms]
 
-== Screenshots ==
-
-1. This screen shot description corresponds to screenshot-1.png. 
-
-
 == Arbitrary section ==
 
 For using this module you have to be registered at sms billing site:
 
        English:	http://smscoin.net/account/register/
        Russian: http://smscoin.com/account/register/
+       
+== Screenshots ==
+
+1. Options screen.       
