@@ -1,7 +1,7 @@
 === SMS paid content ===
 Contributors: smscoin.com
 Donate link: http://smscoin.com/
-Tags: sms,content,hide
+Tags:plugin, sms, content, post, widget
 Requires at least: 2.0.2
 Tested up to: 2.3.2
 Stable tag: 0.1
