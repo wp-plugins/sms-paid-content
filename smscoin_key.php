@@ -102,7 +102,7 @@ if (!class_exists('smscoin_key')) {
 					<p>For using this module you have to be <a href="http://smscoin.net/account/register/" onclick="this.target = '_blank';"><b>registered</b></a> at smscoin.net .</p>
 					<p>The sms:key is, from the implementational point of view, just a way of restricting user's ability to visit certain web-resources. In order to allow a user to review the restricted content, individual access passwords are generated; each one of these passwords can have a time and/or visit count limit, up to you. The access for the certain password is denied when the time is up OR when the visit count limit is hit, whichever comes first. Be careful while adjusting the options thought: note that when you change your sms:key options, only those users that signed up after the change are affected.</p>
 					<p>For more information about this service: <a href="http://smscoin.net/info/smskey-tech/" onclick="this.target = '_blank';" >SmsCoin - SMS:Key.</a></p>
-					<p><b>How does it work ?</b><br /> Add to content of the page or post, 2 tags and beetween hidden text, exampel: [smscoin_key] hidden text [/smscoin_key].</p>
+					<p><b>How does it work ?</b><br /> Add to content of the page or post, 2 tags and beetween hidden text, exampel: [sms] Hidden text [/sms].</p>
 					<p><hr /></p>
 					<form action="" method="post" id="<?php echo $this->prefix; ?>-conf" style="text-align: left ; margin: left; width: 50em; ">
 						<p>Enter ID of you'r sms:key: <a href="http://smscoin.net/keys/add/" onclick="this.target = '_blank';">get sms:key</a></p>
