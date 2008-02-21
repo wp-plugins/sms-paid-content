@@ -20,8 +20,8 @@ Be careful while adjusting the options thought: note that when you change your s
 only those users that signed up after the change are affected.
 
 For using this module you have to be registered at sms billing site:
-       English:	http://smscoin.net/account/register/
-       Russian: http://smscoin.com/account/register/
+English:	http://smscoin.net/account/register/
+Russian: http://smscoin.com/account/register/
 
 USING: [sms] Hidden text [/sms]
 
