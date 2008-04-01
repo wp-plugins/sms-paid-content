@@ -35,7 +35,7 @@ if (!class_exists('smscoin_key')) {
 			# Check if exists open an close tags of hidden content
 			if (preg_match('/\\['.$this->tag_name_start.'\\](.*?)\\[\\/'.$this->tag_name_end.'\\]/is', $content, $matches)) {
 				################################################################################
-				### SMS:Key v1.0.5 ###
+				### SMS:Key v1.0.6 ###
 				if (intval($this->key_id) > 200000) {
 					if($this->language == "") {
 						$this->language = "english";
@@ -43,11 +43,13 @@ if (!class_exists('smscoin_key')) {
 					if($this->s_enc == "") {
 						$this->s_enc="UTF-8";
 					}
+					$old_ua = @ini_set('user_agent', 'smscoin_key_1.0.6');
 					$response = @file("http://service.smscoin.com/language/$this->language/key/?s_pure=1&s_enc=$this->s_enc&s_key=".$this->key_id
 					."&s_pair=".urlencode(substr($_GET["s_pair"],0,10))
 					."&s_language=".urlencode(substr($_GET["s_language"],0,10))
 					."&s_ip=".$_SERVER["REMOTE_ADDR"]
 					."&s_url=".$_SERVER["SERVER_NAME"].htmlentities(urlencode($_SERVER["REQUEST_URI"])));
+					@ini_set('user_agent', $old_ua);
 					if ($response !== false) {
 						if (count($response)>1 || $response[0] != 'true') {
 							$rpl_hidd = implode("", $response);
