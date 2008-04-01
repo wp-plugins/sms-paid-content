@@ -3,7 +3,7 @@ Contributors: smscoin.com
 Donate link: http://smscoin.com/
 Tags:plugin, sms, content, post, donate, payment, billing
 Requires at least: 2.0.2
-Tested up to: 2.3.2
+Tested up to: 2.5
 Stable tag: 0.1
 
 This Plugin allows you to hide any content on your blog, that will be visible only after user sends sms message.
