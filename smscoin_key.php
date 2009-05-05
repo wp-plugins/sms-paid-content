@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: SMSCOIN Key
-Plugin URI: http://smscoin.com/info/sms-scripts/
+Plugin URI: http://smscoin.com/software/engine/WordPress/
 Description: The sms:key is, from the implementational point of view, just a way of restricting user's ability to visit certain web-resources. In order to allow a user to review the restricted content, individual access passwords are generated; each one of these passwords can have a time and/or visit count limit, up to you. The access for the certain password is denied when the time is up OR when the visit count limit is hit, whichever comes first. Be careful while adjusting the options thought: note that when you change your sms:key options, only those users that signed up after the change are affected.
 Version: 0.1
 Author: smscoin.com
