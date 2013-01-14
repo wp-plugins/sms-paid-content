@@ -1,0 +1,287 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmsCoin R-Key\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-31 17:24+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Alex <alex@smscoin.com>\n"
+"Language-Team: SmsCoin.com <alex@smscoin.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: ISRAEL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ./..\n"
+
+#: ../smscoin_key.php:91
+#: ../smscoin_key.php:93
+msgid "SmsCoin - sms:key"
+msgstr "SmsCoin - смс:ключ"
+
+#: ../smscoin_key.php:107
+msgid "<h3> sms:key error  </h3>"
+msgstr "<h3> ошибочный смс:ключ  </h3>"
+
+#: ../smscoin_key.php:109
+msgid " Settings saved ..."
+msgstr "Настройки сохранены"
+
+#: ../smscoin_key.php:120
+msgid "<legend><h2>SmsCoin - sms:key, configuration</h2></legend><p>To be able to use this module you need to <a href=\"http://smscoin.net/account/register/\" onclick=\"this.target = '_blank';\"><b>register</b></a> on SmsCoin.net.</p><p>Additional information about this service: <a href=\"http://smscoin.net/info/smskey-tech/\" onclick=\"this.target = '_blank';\" >SmsCoin - sms:key.</a></p><p><b>How does it work?</b><br /> Insert two tags on your web page or post: [smscoin_key] hidden text [/smscoin_key].</p><p> In order to see the hidden content user must send an sms to short number according to selected country.</p><p> User will receive an sms message containing access code in order to view the hidden content.</p><p><hr /></p>"
+msgstr "<legend><h2>SmsCoin - sms:key, конфигурация</h2></legend><p>Для использования данного модуля требуется <a href=\"http://smscoin.com/account/register/\" onclick=\"this.target = '_blank';\"><b>регистрация </b></a> on SmsCoin.com</p><p>Для дополнительной информации об услуге:<a href=\"http://smscoin.com/info/smskey-tech/\" onclick=\"this.target = '_blank';\" >SmsCoin - смс:ключ.</a></p><p><b>Как это работает?</b><br />В текст страницы или поста Вы добавляете два тега: [smscoin_key] скрытый текст [/smscoin_key].</p><p>Для просмотра скрытого между тегами текста, пользователю потребуется послать смс на короткий номер в выбранной им стране.</p><p> В ответном смс сообщении он получит код доступа, для просмотра скрытого текста.</p><p><hr /></p>"
+
+#: ../smscoin_key.php:122
+msgid "Enter your sms:key number:"
+msgstr "Введите ID Вашего смс:ключа"
+
+#: ../smscoin_key.php:122
+msgid "accept sms:key"
+msgstr "получить смс:ключ"
+
+#: ../smscoin_key.php:125
+msgid "Enter symbol encoding (charset) for your site (default encoding UTF-8):"
+msgstr "Введите кодировку символов (charset) Вашего сайта (значение по умолчанию UTF-8):"
+
+#: ../smscoin_key.php:127
+msgid "Save settings&raquo;"
+msgstr "Сохранить настройки"
+
+#: ../smscoin_key.php:139
+msgid "<p>Choose default language for sms:key script:</p>"
+msgstr "<p>Выберите язык по умолчанию для скрипта смс:ключа:</p>"
+
+#~ msgid "SMSCOIN - SMS:Key"
+#~ msgstr "SMSCOIN - смс:ключ"
+
+#~ msgid ""
+#~ "<p>Choose default language for sms:key script:</p><select id=\"language\" "
+#~ "name=\"language\" type=\"text\"  style=\"font-family: 'Courier New', "
+#~ "monospace; font-size: 1.5em;\">"
+#~ msgstr ""
+#~ "<p>Выберите язык по умолчанию для скрипта смс:ключ:</p><select id="
+#~ "\"language\" name=\"language\" type=\"text\"  style=\"font-family: "
+#~ "'Courier New', monospace; font-size: 1.5em;\">"
+
+#~ msgid "Select Provider"
+#~ msgstr "Выбор оператора"
+
+#~ msgid "List"
+#~ msgstr "Список"
+
+#~ msgid "Tarifs"
+#~ msgstr "Тарифы"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "Pages : "
+#~ msgstr "Страницы:"
+
+#~ msgid "List received sms"
+#~ msgstr "Список полученных смс "
+
+#~ msgid "Password %s was deleted!"
+#~ msgstr "Пароль %s, удален!"
+
+#~ msgid "Password %s parameters was changed!"
+#~ msgstr "Параметры пароля %s, изменены!"
+
+#~ msgid "Manually add a password:"
+#~ msgstr "Добавить пароль вручную"
+
+#~ msgid "Key"
+#~ msgstr "Ключ"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Country"
+#~ msgstr "Страна"
+
+#~ msgid "Provider"
+#~ msgstr "Оператор"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Cost"
+#~ msgstr "Стоимость"
+
+#~ msgid "Time"
+#~ msgstr "Время"
+
+#~ msgid "Limit"
+#~ msgstr "Лимит"
+
+#~ msgid "Add Password"
+#~ msgstr "Добавить пароль"
+
+#~ msgid "List recived sms"
+#~ msgstr "Список полученных смс"
+
+#~ msgid "Items per page"
+#~ msgstr "Записей на страницу"
+
+#~ msgid "Show"
+#~ msgstr "Осталось"
+
+#~ msgid "Added"
+#~ msgstr "Добавлен"
+
+#~ msgid "First enter"
+#~ msgstr "Первый вход"
+
+#~ msgid "Options"
+#~ msgstr "Опции"
+
+#~ msgid "Find"
+#~ msgstr "Поиск"
+
+#~ msgid "First you need to configure the module!"
+#~ msgstr "Сначала нужно настроить модуль"
+
+#~ msgid "Select Country"
+#~ msgstr "Выбор страны"
+
+#~ msgid "In order to receive a password, please send a message saying"
+#~ msgstr "Для получения пароля, отправьте сообщение"
+
+#~ msgid "to the phone number"
+#~ msgstr "на номер"
+
+#~ msgid "The message will cost you"
+#~ msgstr "Стоимость сообщения "
+
+#~ msgid "You will receive your password in reply."
+#~ msgstr "Пароль придет в ответном сообщении. "
+
+#~ msgid "Caution!"
+#~ msgstr "Внимание!"
+
+#~ msgid ""
+#~ "Pay attention to the message text and especially spaces.All the letters "
+#~ "are latin.You'll be charged the full price, even in case of an error."
+#~ msgstr ""
+#~ "Обратите внимание на формат сообщения, на пробел между словами. Все буквы "
+#~ "в сообщении латинские. В случае ошибки в сообщении, услуга считается "
+#~ "оплаченной."
+
+#~ msgid "Error connecting to server! Update you'r tariffs"
+#~ msgstr "Ошибка подключения к серверу! Обновите Вашу тарифную сетку."
+
+#~ msgid "Your local tariff scale"
+#~ msgstr "Ваша локальная тарифная сетка"
+
+#~ msgid "Update your local tariff scale"
+#~ msgstr "Обновление Вашей локальной копии тарифной сетки"
+
+#~ msgid "Last update: "
+#~ msgstr "Последнее обновление:"
+
+#~ msgid "Update now: "
+#~ msgstr "Обновить сейчас"
+
+#~ msgid "Module Settings"
+#~ msgstr "Настройки модуля"
+
+#~ msgid "Wrong sms:key ID"
+#~ msgstr "Не верный ID смс:ключа"
+
+#~ msgid "For using this module you have to be"
+#~ msgstr "Для использования данного модуля требуется"
+
+#~ msgid "registered"
+#~ msgstr "регистрация"
+
+#~ msgid " at smscoin.net ."
+#~ msgstr "на сайте smscoin.com"
+
+#~ msgid ""
+#~ "<p>The sms:key is, from the implementational point of view, just a way of "
+#~ "restricting user's ability to visit certain web-resources. In order to "
+#~ "allow a user to review the restricted content, individual access "
+#~ "passwords are generated; each one of these passwords can have a time and/"
+#~ "or visit count limit, up to you. The access for the certain password is "
+#~ "denied when the time is up OR when the visit count limit is hit, "
+#~ "whichever comes first. Be careful while adjusting the options thought: "
+#~ "note that when you change your sms:key options, only those users that "
+#~ "signed up after the change are affected.</p>"
+#~ msgstr ""
+#~ "<p>смс:ключ - универсальный смс сервис, который позволяет обеспечить "
+#~ "платный доступ к любому контенту на вашем сайте. В ответ на отправленное "
+#~ "смс сообщение пользователю присылается короткий текстовый пароль (sms "
+#~ "ключ), с помощью которого он может получить доступ к тому, что вы закрыли "
+#~ "этим sms ключом. Вы сами решаете сколько раз и на протяжении какого "
+#~ "времени можно использовать пароль для доступа. Легкость настройки и "
+#~ "гибкость в работе (скрипт смс ключа может быть размещен как у нас – "
+#~ "локально, так и у вас - удаленно) делают смс:ключ надежным и необходимым "
+#~ "инструментом для реализации мобильных платежей на вашем сайте.</p>"
+
+#~ msgid "For more information about this service:"
+#~ msgstr "Для дополнительной информации об услуге:"
+
+#~ msgid ""
+#~ "<p><b>How does it work ?</b><br /> Add to content of the page or post, 2 "
+#~ "tags and beetween hidden text, exampel: [rkey] hidden text [/rkey].</p>"
+#~ msgstr ""
+#~ "<p><b>Как это работает?</b><br /> В текст страницы или поста Вы "
+#~ "добавляете два тега: [rkey] скрытый текст [/rkey].</p><p> Для просмотра "
+#~ "скрытого между тегами текста, пользователю потребуется послать смс на "
+#~ "короткий номер в выбранной им стране.</p><p> В ответном смс сообщении он "
+#~ "получит код доступа, для просмотра скрытого текста.</p>"
+
+#~ msgid "Select Country/Providers list language"
+#~ msgstr "Выберите язык для списка стран/операторов:"
+
+#~ msgid "Enter Secret code from settings of sms:key:"
+#~ msgstr "Введите секретный код из настроек смс:ключа:"
+
+#~ msgid "Enter the Tag name for hide the content:"
+#~ msgstr "Введите тэг для скрытия текста (значение по умолчанию rkey):"
+
+#~ msgid "Use gzip ?"
+#~ msgstr "Включить использование gzip ?"
+
+#~ msgid "Yes"
+#~ msgstr "Да "
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#, fuzzy
+#~ msgid "Click here to get access"
+#~ msgstr "Получить доступ"
+
+#~ msgid "<h3>If you have already received the password, enter it here:</h3>"
+#~ msgstr "<h3>Если Вы уже получили пароль, введите его здесь:</h3>"
+
+#~ msgid "Continue"
+#~ msgstr "Продолжить"
+
+#~ msgid "<h3>To receive your password please send an sms</h3>"
+#~ msgstr "<h3>Для получения пароля, отправьте смс сообщение </h3>"
+
+#~ msgid "Hidden text"
+#~ msgstr "Скрытый текст"
+
+#~ msgid "click to show / hide the additional text"
+#~ msgstr "отобразить / скрыть дополнительный текст"
+
+#~ msgid "Select country"
+#~ msgstr "Выбор страны"
+
+#~ msgid "Add Key"
+#~ msgstr "Добавить ключ"
+
+#~ msgid "Table"
+#~ msgstr "Таблица"
+
+#~ msgid "OYAEBU"
+#~ msgstr "ОЯЕБУ!"
+
+#, fuzzy
+#~ msgid "Add"
+#~ msgstr "Добавлен"

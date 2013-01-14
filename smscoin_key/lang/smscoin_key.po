@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmsCoin R-Key\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-31 17:24+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Alex <alex@smscoin.com>\n"
+"Language-Team: SmsCoin.com <alex@smscoin.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: ISRAEL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ./..\n"
+
+#: ../smscoin_key.php:91
+#: ../smscoin_key.php:93
+msgid "SmsCoin - sms:key"
+msgstr ""
+
+#: ../smscoin_key.php:107
+msgid "<h3> sms:key error  </h3>"
+msgstr ""
+
+#: ../smscoin_key.php:109
+msgid " Settings saved ..."
+msgstr ""
+
+#: ../smscoin_key.php:120
+msgid "<legend><h2>SmsCoin - sms:key, configuration</h2></legend><p>To be able to use this module you need to <a href=\"http://smscoin.net/account/register/\" onclick=\"this.target = '_blank';\"><b>register</b></a> on SmsCoin.net.</p><p>Additional information about this service: <a href=\"http://smscoin.net/info/smskey-tech/\" onclick=\"this.target = '_blank';\" >SmsCoin - sms:key.</a></p><p><b>How does it work?</b><br /> Insert two tags on your web page or post: [smscoin_key] hidden text [/smscoin_key].</p><p> In order to see the hidden content user must send an sms to short number according to selected country.</p><p> User will receive an sms message containing access code in order to view the hidden content.</p><p><hr /></p>"
+msgstr ""
+
+#: ../smscoin_key.php:122
+msgid "Enter your sms:key number:"
+msgstr ""
+
+#: ../smscoin_key.php:122
+msgid "accept sms:key"
+msgstr ""
+
+#: ../smscoin_key.php:125
+msgid "Enter symbol encoding (charset) for your site (default encoding UTF-8):"
+msgstr ""
+
+#: ../smscoin_key.php:127
+msgid "Save settings&raquo;"
+msgstr ""
+
+#: ../smscoin_key.php:139
+msgid "<p>Choose default language for sms:key script:</p>"
+msgstr ""
+
+#~ msgid "Add Key"
+#~ msgstr "Добавить ключ"
+
+#~ msgid "Table"
+#~ msgstr "Таблица"
+
+#~ msgid "OYAEBU"
+#~ msgstr "ОЯЕБУ!"
+
+#, fuzzy
+#~ msgid "Add"
+#~ msgstr "Добавлен"
